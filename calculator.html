@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="calculator.css" />
+    <script src="calc.js" defer></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <td colspan="3">
+            <input type="text" id="display" placeholder="0" class="display" />
+          </td>
+          <td colspan="1">
+            <button value="" class="clear">C</button>
+          </td>
+        </tr>
+      </thead>
+      <tbody class="buttons">
+        <tr>
+          <td>
+            <button value="1" class="operands" type="text">1</button>
+          </td>
+          <td>
+            <button type="text" class="operands" value="2">2</button>
+          </td>
+          <td>
+            <button type="text" class="operands" value="3">3</button>
+          </td>
+          <td>
+            <button type="text" class="operator" value="+">+</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button type="text" class="operands" value="4">4</button>
+          </td>
+          <td>
+            <button type="text" class="operands" value="5">5</button>
+          </td>
+          <td>
+            <button type="text" class="operands" value="6">6</button>
+          </td>
+          <td>
+            <button type="text" class="operator" value="-">-</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button type="text" class="operands" value="7">7</button>
+          </td>
+          <td>
+            <button type="text" class="operands" value="8">8</button>
+          </td>
+          <td>
+            <button type="text" class="operands" value="9">9</button>
+          </td>
+          <td>
+            <button type="text" class="operator" value="*">*</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button type="text" class="operands" value="0">0</button>
+          </td>
+          <td>
+            <button type="text" class="solve">=</button>
+          </td>
+          <td>
+            <button type="text" class="dot" value=".">.</button>
+          </td>
+          <td>
+            <button type="text" class="operator" value="/">/</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
